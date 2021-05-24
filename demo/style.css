@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 main {
     box-sizing: border-box;
 }
@@ -5,6 +9,22 @@ main {
 .row {
     margin-right: 0;
     margin-left: 0;
+}
+
+.wrapper__h2 {
+    text-align: center;
+    display: inline-block;
+    border-bottom: 8px solid orange;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.wrapper__inner {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* ヘッダー */
@@ -104,34 +124,6 @@ header {
 /* アイキャッチここまで */
 
 /* セクション2ここから */
-.wrapper-2 {
-    padding: 60px 0;
-}
-.wrapper-grid3 {
-    width: 60%;
-    margin: 0 auto;
-    /* padding-top: 40px; */
-    text-align: center;
-}
-
-.wrapper__h2 {
-    text-align: center;
-    display: inline-block;
-    border-bottom: 8px solid orange;
-    margin-bottom: 40px;
-    font-size: 3em;
-    font-weight: bold;
-}
-
-.wrapper-2__h2 {
-    text-align: center;
-    display: inline-block;
-    border-bottom: 8px solid orange;
-    margin-bottom: 40px;
-    font-size: 3em;
-    font-weight: bold;
-}
-
 .wrapper-2__h3 {
     font-size: 1.25em;
     margin: 24px 0;
@@ -230,6 +222,11 @@ header {
     margin: 10px 0;
 }
 
+.wrapper-4__section-medium-text {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
 .wrapper-4__section-small-text {
     display: inline-block;
     margin: 10px 0;
@@ -290,3 +287,78 @@ header {
     font-size: 1.5em;
 }
 /* セクション5ここまで */
+
+/* セクション6ここから */
+.wrapper-6 {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.wrapper-6__inner {
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.wrapper-6__logo {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.wrapper-6__logo_gray {
+    width: 100%;
+}
+
+.wrapper-6__logo_color {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+}
+
+.wrapper-6__logo_color:hover {
+    opacity: 100%;
+}
+/* セクション6ここまで */
+
+/* セクション7ここから */
+.wrapper-7__inner {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+.wrapper-7__contact,
+.wrapper-7__aboutUs,
+.wrapper-7__recruitment {
+    text-align: left;
+    padding: 20px;
+}
+
+.wrapper-7__contact_button {
+    float: right;
+}
+
+.wrapper-7__contact_p {
+    margin: 10px 0 0 0;
+}
+
+.wrapper-7__contact_textarea,
+.wrapper-7__contact_input-text {
+    width: 100%;
+}
+
+
+
+
+/* セクション7ここまで */
