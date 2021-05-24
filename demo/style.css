@@ -15,7 +15,6 @@ main {
     text-align: center;
     display: inline-block;
     border-bottom: 8px solid orange;
-    margin-top: 40px;
     margin-bottom: 40px;
     font-size: 3em;
     font-weight: bold;
@@ -24,6 +23,7 @@ main {
 .wrapper__inner {
     width: 60%;
     margin: 0 auto;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -183,6 +183,11 @@ header {
     background-size: cover;
 }
 
+.wrapper__inner-3 {
+    margin: 0 0 0 auto;
+    text-align: left;
+}
+
 .wrapper-3__section-1 {
     background-color: #ddd;
 }
@@ -203,12 +208,6 @@ header {
 .wrapper-4 {
     background-color: orange;
     text-align: center;
-}
-
-.wrapper-4__inner {
-    width: 60%;
-    margin: 0 auto;
-    padding: 40px 0;
 }
 
 .wrapper-4__section {
@@ -238,18 +237,10 @@ header {
 /* セクション4ここまで */
 
 /* セクション5ここから */
-.wrapper-5__inner {
-    width: 60%;
-    margin: 0 auto;
-    padding: 40px 0;
-    text-align: center;
-}
-
 .wrapper-5__section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 0;
 }
 
 .wrapper-5__performance {
@@ -285,6 +276,11 @@ header {
     color: rgba(0, 0, 0, .7);
     text-decoration: none;
     font-size: 1.5em;
+}
+
+.wrapper-5__section-1,
+.wrapper-5__section-2 {
+    margin-bottom: 30px;
 }
 /* セクション5ここまで */
 

@@ -26,11 +26,11 @@
                 <div class="nav__menu col-9">
                     <div class="row nav__menu-area">
                         <div class="dummy col-2"></div>
-                        <a class="nav__menu-item nav__menu-item1 col-2" href="#">ホーム</a>
-                        <a class="nav__menu-item nav__menu-item2 col-2" href="#">サービス</a>
-                        <a class="nav__menu-item nav__menu-item3 col-2" href="#">会社情報</a>
-                        <a class="nav__menu-item nav__menu-item4 col-2" href="#">実績紹介</a>
-                        <a class="nav__menu-item nav__menu-item5 col-2" href="#">お問い合わせ</a>
+                        <a class="nav__menu-item nav__menu-item1 col-2" href="#scroll-1">ホーム</a>
+                        <a class="nav__menu-item nav__menu-item2 col-2" href="#scroll-2">サービス</a>
+                        <a class="nav__menu-item nav__menu-item3 col-2" href="#scroll-3">会社情報</a>
+                        <a class="nav__menu-item nav__menu-item4 col-2" href="#scroll-5">実績紹介</a>
+                        <a class="nav__menu-item nav__menu-item5 col-2" href="#scroll-7">お問い合わせ</a>
                     </div>
                     <!-- コメント -->
                         <!-- リストよりdivよりaタグで表示したほうがいいかも -->
@@ -65,21 +65,20 @@
         </nav>
     </header>
     <!-- /ヘッダー -->
-
     <!-- メイン -->
     <main>
         <!-- wrapper-1 -->
-        <div class="wrapper wrapper-1">
+        <div id="scroll-1" class="wrapper wrapper-1">
             <video class="wrapper__video" src="./videos/file.mp4" autoplay loop muted></video>
             <div class="wrapper__catchcopy">
                 <h1 class="wrapper__catchcopy-text">住みやすい未来を創る、<br>これからの都市設計。</h1>
-                <a href="#scroll"><img class="wrapper__catchcopy-img" src="./images/scroll.webp" alt="scroll"></a>
+                <a href="#scroll-2"><img class="wrapper__catchcopy-img" src="./images/scroll.webp" alt="scroll"></a>
             </div>
         </div>
         <!-- /wrapper-1 -->
         
         <!-- wrapper-2 -->
-        <div id="scroll" class="wrapper wrapper-2">
+        <div id="scroll-2" class="wrapper wrapper-2">
             <div class="wrapper__inner wrapper-2__inner">
                 <h2 class="wrapper__h2">サービス</h2>
                 <div class="row">
@@ -128,30 +127,29 @@
         <!-- /wrapper-2 -->
         
         <!-- wrapper-3 -->
-        <div class="wrapper wrapper-3 wrapper-grid2">
+        <div id="scroll-3" class="wrapper wrapper-3">
             <div class="row">
                 <div class="wrapper-3__section wrapper-3__section-1 col-6">
-                    <div class="wrapper-3__section-inner">
-                        <h2 class="wrapper__h2">会社情報</h2>
-                        <p class="wrapper-3__p">
-                            テキストの例です。テキストの例です。テキストの例です。テキストの例です。テキストの例です。テキストの例です。テキストの例です。テキストの例です。テキストの例です。
-                        </p>
-                        <p class="wrapper-3__p">
-                            あなたのビジネスを紹介する長めのテキストにぴったりなスペースです。このスペースを活用して、サービスの特徴やおすすめしたいポイントを顧客に伝えましょう。ビジネスのアイデアをひらめいたきっかけ、他にはない独自のサービス、あなたのこだわりなど、個性的で心のこもった文章を書いて顧客の興味を引きつけることがビジネス成功の鍵となります。
-                        </p>
+                    <div class="wrapper__inner wrapper__inner-3">
+                            <h2 class="wrapper__h2">会社情報</h2>
+                            <p class="wrapper-3__p">
+                                テキストの例です。テキストの例です。テキストの例です。テキストの例です。テキストの例です。テキストの例です。テキストの例です。テキストの例です。テキストの例です。
+                            </p>
+                            <p class="wrapper-3__p">
+                                あなたのビジネスを紹介する長めのテキストにぴったりなスペースです。このスペースを活用して、サービスの特徴やおすすめしたいポイントを顧客に伝えましょう。ビジネスのアイデアをひらめいたきっかけ、他にはない独自のサービス、あなたのこだわりなど、個性的で心のこもった文章を書いて顧客の興味を引きつけることがビジネス成功の鍵となります。
+                            </p>
                     </div>
                 </div>
                 <div class="wrapper-3__section wrapper-3__section-2 col-6">
                     
                 </div>
             </div>
-
         </div>
         <!-- /wrapper-3 -->
         
         <!-- wrapper-4 -->
-        <div class="wrapper wrapper-4">
-            <div class="wrapper-4__inner">
+        <div id="scroll-4" class="wrapper wrapper-4">
+            <div class="wrapper__inner">
                 <div class="row">
                     <div class="col-3 wrapper-4__section wrapper-4__section-1"><span class="wrapper-4__section-big-text">2023</span><span class="wrapper-4__section-medium-text">年</span><br><span class="wrapper-4__section-small-text">事務所設立</span></div>
                     <div class="col-3 wrapper-4__section wrapper-4__section-2"><span class="wrapper-4__section-big-text">206</span><span class="wrapper-4__section-medium-text">件の</span><br><span class="wrapper-4__section-small-text">プロジェクト</span></div>
@@ -163,8 +161,8 @@
         <!-- /wrapper-4 -->
         
         <!-- wrapper-5 -->
-        <div class="wrapper wrapper-5">
-            <div class="wrapper-5__inner">
+        <div id="scroll-5" class="wrapper wrapper-5">
+            <div class="wrapper__inner">
                 <h2 class="wrapper__h2">実績紹介</h2>
                 <div class="row">
                     <div class="col-6 wrapper-5__section wrapper-5__section-1">
@@ -197,9 +195,9 @@
         <!-- /wrapper-5 -->
         
         <!-- wrapper-6 -->
-        <div class="wrapper wrapper-6">
-            <div class="wrapper-6__inner">
-                <h2 class="wrapper__h2">主要クライアント</h2><br>
+        <div id="scroll-6" class="wrapper wrapper-6">
+            <div class="wrapper__inner">
+                <h2 class="wrapper__h2">主要クライアント</h2>
                 <div class="row">
                     <div class="col-4 mx-auto wrapper-6__client wrapper-6__client-1">
                         <div class="wrapper-6__logo wrapper-6__logo-1">
@@ -257,8 +255,8 @@
         <!-- /wrapper-6 -->
         
         <!-- wrapper-7 -->
-        <div class="wrapper wrapper-7">
-            <div class="wrapper-7__inner">
+        <div id="scroll-7" class="wrapper wrapper-7">
+            <div class="wrapper__inner">
                 <h2 class="wrapper__h2">お問い合わせ</h2>
                 <div class="wrapper-7__section-1" id="map"></div>
                 <div class="row">
@@ -279,7 +277,7 @@
                     </div>
                     <div class="col-6 wrapper-7__section-3">
                         <div class="wrapper-7__aboutUs">
-                            <h3 class="wrapper__h3">もくらん建設　株式会社</h3>
+                            <h6 class="wrapper__h3">もくらん建設　株式会社</h6>
                             <p>〒000-0000</p>
                             <p>東京都新宿区西新宿　0-0-0</p>
                             <br>
@@ -298,14 +296,12 @@
         <!-- /wrapper-7 -->
     </main>
     <!-- /メイン -->
-
     <!-- フッター -->
     <footer>
     </footer>
     <!-- /フッター -->
-
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
@@ -327,20 +323,12 @@
         InfoWindow = new google.maps.InfoWindow ({
             content: "もくらん建設"
         }).open (map, marker);
-
-
         $('a[href^="#"]').click(function(){
-            let speed = 1000;
+            let speed = 1;
             let href= $(this).attr("href");
-            // let target = $(href == "#" || href == "" ? 'html' : href);
-            // let target = document.querySelector('#scroll');
-            // let target = $('#scroll');
-            let target = document.getElementById("scroll");
-            // let target = "#scroll";
-            // let position = target.offset().top -100;
-            let position = target.top -100;
-            // $("html, body").animate({scrollTop:position}, speed, "swing");
-            $("html, body").animate(500, speed, "swing");
+            let target = $(href == "#" || href == "" ? 'html' : href);
+            let position = target.offset().top -50;
+            $("html, body").animate({scrollTop:position}, speed, "swing");
             return false;
         });
     </script>
