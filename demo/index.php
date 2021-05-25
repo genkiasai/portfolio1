@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>建築会社A</title>
     
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
+    <!-- 暫定キー -->
     <script src="http://maps.google.com/maps/api/js?key=AIzaSyAqv8bVG_y0gJj7Y0t7cWQ-PQF_UWSYDFQ&language=ja"></script>
 </head>
 <body>
@@ -16,50 +16,22 @@
         <nav>
             <div class="row">
                 <!-- ロゴ -->
-                <div class="nav__logo col-3">
+                <a class="nav__logo col-lg-3 col-md-2" href="#scroll-1">
                     <div class="row nav__logo-area">
                         <div class="nav__logo-item col-4"><img src="./images/logo.webp" alt="ロゴ"></div>
                         <div class="nav__logo-name col-8"><span class="nav__logo-name_bold">もくらん建設</span><br><span class="nav__logo-name_nomal">株式会社</span></div>
                     </div>
-                </div>
+                </a>
                 <!-- メニュー -->
-                <div class="nav__menu col-9">
+                <div class="nav__menu col-lg-9 col-md-10">
                     <div class="row nav__menu-area">
                         <div class="dummy col-2"></div>
-                        <a class="nav__menu-item nav__menu-item1 col-2" href="#scroll-1">ホーム</a>
-                        <a class="nav__menu-item nav__menu-item2 col-2" href="#scroll-2">サービス</a>
-                        <a class="nav__menu-item nav__menu-item3 col-2" href="#scroll-3">会社情報</a>
-                        <a class="nav__menu-item nav__menu-item4 col-2" href="#scroll-5">実績紹介</a>
-                        <a class="nav__menu-item nav__menu-item5 col-2" href="#scroll-7">お問い合わせ</a>
+                        <a class="nav__menu-item nav__menu-item1 col-2 px-0" href="#scroll-1">ホーム</a>
+                        <a class="nav__menu-item nav__menu-item2 col-2 px-0" href="#scroll-2">サービス</a>
+                        <a class="nav__menu-item nav__menu-item3 col-2 px-0" href="#scroll-3">会社情報</a>
+                        <a class="nav__menu-item nav__menu-item4 col-2 px-0" href="#scroll-5">実績紹介</a>
+                        <a class="nav__menu-item nav__menu-item5 col-2 px-0" href="#scroll-7">お問い合わせ</a>
                     </div>
-                    <!-- コメント -->
-                        <!-- リストよりdivよりaタグで表示したほうがいいかも -->
-                        <!-- <div class="row nav__menu-area">
-                            <div class="dummy col-2"></div>
-                            <div class="nav__menu-item nav__menu-item1 col-2 float-right"><a href="#">ホーム</a></div>
-                            <div class="nav__menu-item nav__menu-item2 col-2 float-right"><a href="#">サービス</a></div>
-                            <div class="nav__menu-item nav__menu-item3 col-2 float-right"><a href="#">会社情報</a></div>
-                            <div class="nav__menu-item nav__menu-item4 col-2 float-right"><a href="#">実績紹介</a></div>
-                            <div class="nav__menu-item nav__menu-item5 col-2 float-right"><a href="#">お問い合わせ</a></div>
-                        </div> -->
-                        <!-- 右に寄ったけど順番が逆になる -->
-                        <!-- <div class="nav__menu-items col-12 clearfix">
-                                <div class="nav__menu-item nav__menu-item1 col-2 float-right"><a href="#">ホーム</a></div>
-                                <div class="nav__menu-item nav__menu-item1 col-2 float-right"><a href="#">サービス</a></div>
-                                <div class="nav__menu-item nav__menu-item1 col-2 float-right"><a href="#">会社情報</a></div>
-                                <div class="nav__menu-item nav__menu-item1 col-2 float-right"><a href="#">実績紹介</a></div>
-                                <div class="nav__menu-item nav__menu-item1 col-2 float-right"><a href="#">お問い合わせ</a></div>
-                            </div>
-                        </div> -->
-                        <!-- リストよりdivで指定したほうがいいかも -->
-                        <!-- <ul class="nav__menu-list">
-                            <li class="nav__menu-item nav__menu-item-1"><a href="#">ホーム</a></li>
-                            <li class="nav__menu-item nav__menu-item-2"><a href="#">サービス</a></li>
-                            <li class="nav__menu-item nav__menu-item-3"><a href="#">会社情報</a></li>
-                            <li class="nav__menu-item nav__menu-item-4"><a href="#">実績紹介</a></li>
-                            <li class="nav__menu-item nav__menu-item-5"><a href="#">お問い合わせ</a></li>
-                        </ul> -->
-                    <!-- /コメント -->
                 </div>
             </div>
         </nav>
@@ -69,7 +41,9 @@
     <main>
         <!-- wrapper-1 -->
         <div id="scroll-1" class="wrapper wrapper-1">
-            <video class="wrapper__video" src="./videos/file.mp4" autoplay loop muted></video>
+            <div class="wrapper-1__video-area">
+                <video class="wrapper__video" src="./videos/headerFile.mp4" autoplay loop muted></video>
+            </div>
             <div class="wrapper__catchcopy">
                 <h1 class="wrapper__catchcopy-text">住みやすい未来を創る、<br>これからの都市設計。</h1>
                 <a href="#scroll-2"><img class="wrapper__catchcopy-img" src="./images/scroll.webp" alt="scroll"></a>
@@ -300,6 +274,7 @@
     <footer>
     </footer>
     <!-- /フッター -->
+
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

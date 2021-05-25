@@ -42,6 +42,13 @@ header {
 
 .nav__logo {
     background-color: orange;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav__logo:hover {
+    text-decoration: none;
+    color: #000;
 }
 
 .nav__logo-item {
@@ -87,16 +94,30 @@ header {
 /* アイキャッチ */
 .wrapper {
     height: auto;
+    background-color: #fff;
 }
 
 .wrapper-1 {
     position: relative;
     width: 100%;
+    background-color: transparent;
+}
+
+.wrapper-1__video-area {
+    width: 100px;
+    min-height: 1040px;
+    overflow: hidden;
 }
 
 .wrapper__video {
-    width: 100%;
-    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
 .wrapper__catchcopy {
@@ -109,9 +130,7 @@ header {
     width: 100%;
     height: 30%;
     text-align: center;
-    /* font-weight: bold; */
     color: #fff;
-    /* background-color: rgba(255, 255, 255, 0.5); */
 }
 
 .wrapper__catchcopy-text {
@@ -353,8 +372,20 @@ header {
 .wrapper-7__contact_input-text {
     width: 100%;
 }
-
-
-
-
 /* セクション7ここまで */
+
+@media screen and (max-width: 992px) {
+    .nav__menu-item {
+        font-size: 0.9em;
+    }
+    
+    .nav__logo-item img {
+        margin: 5px;
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .nav__logo-name {
+        font-size: 1.0em;
+    }
+}
