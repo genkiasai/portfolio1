@@ -56,9 +56,10 @@ header {
 }
 
 .nav__logo-item img {
-    margin: 10px;
+    padding: 10px;
     max-width: 80px;
     max-height: 80px;
+    width: 100%;
 }
 
 .nav__logo-name {
@@ -218,7 +219,6 @@ header {
 }
 
 .wrapper-3__p {
-    padding-right: 80px;
     padding-bottom: 24px;
 }
 /* セクション3ここまで */
@@ -234,7 +234,7 @@ header {
 }
 
 .wrapper-4__section-big-text {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
     display: inline-block;
     margin: 10px 0;
@@ -373,12 +373,38 @@ header {
     width: 100%;
 }
 /* セクション7ここまで */
+/* フッターここから */
+footer {
+    background-color: navy;
+    color: #fff;
+}
 
+.footer__menu-item {
+    display: inline-block;
+}
+
+.nav__menu-item,
+.footer__menu-item {
+    font-size: 0.75em;
+    color: #fff;
+}
+
+.footer__menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+}
+
+.footer__name a {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    color: #fff;
+}
+/* フッターここまで */
+/* タブレット */
 @media screen and (max-width: 992px) {
-    .nav__menu-item {
-        font-size: 0.9em;
-    }
-    
     .nav__logo-item img {
         margin: 5px;
         max-width: 60px;
@@ -387,5 +413,65 @@ header {
 
     .nav__logo-name {
         font-size: 1.0em;
+    }
+
+    .wrapper__inner {
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    
+
+    .wrapper__inner-3 {
+        margin: 0 0 0 auto;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper__catchcopy-text {
+        font-size: 3.2em;
+    }
+    .wrapper-2__section {
+        padding: 0 5px;
+    }
+
+    .wrapper-2__section-2 {
+        margin: 16px 0;
+    }
+
+    
+
+    .wrapper-4__section {
+        border-right: 2px solid #fff;
+        margin: 16px 0;
+    }
+
+    .wrapper-4__section-2,
+    .wrapper-4__section-4 {
+        border: none;
+    }
+
+    .wrapper-4__section-big-text {
+        font-size: 4.0em;
+    }
+
+    .wrapper-4__section-medium-text {
+        font-size: 2.5em;
+    }
+
+    .wrapper-4__section-small-text {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .wrapper__inner {
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 0;
+        text-align: center;
     }
 }
