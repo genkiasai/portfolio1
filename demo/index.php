@@ -33,6 +33,38 @@
                         <a class="nav__menu-item nav__menu-item5 col-sm-2 col-lg-2 px-0" href="#scroll-7">お問い合わせ</a>
                     </div>
                 </div>
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#scroll-1">
+                        <div class="row nav__logo-area_sp">
+                            <div class="nav__logo-item col-4 px-0"><img src="./images/logo.webp" alt="ロゴ"></div>
+                            <div class="nav__logo-name col-8 px-0"><span class="nav__logo-name_bold">もくらん建設</span><br><span class="nav__logo-name_nomal">株式会社</span></div>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#scroll-1">ホーム <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scroll-2">サービス</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scroll-3">会社情報</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scroll-5">実績紹介</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scroll-7">お問い合わせ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
             </div>
         </nav>
     </header>
@@ -103,7 +135,7 @@
         <!-- wrapper-3 -->
         <div id="scroll-3" class="wrapper wrapper-3">
             <div class="row">
-                <div class="wrapper-3__section wrapper-3__section-1 col-6">
+                <div class="wrapper-3__section wrapper-3__section-1 col-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="wrapper__inner wrapper__inner-3">
                             <h2 class="wrapper__h2">会社情報</h2>
                             <p class="wrapper-3__p">
@@ -123,7 +155,7 @@
         
         <!-- wrapper-4 -->
         <div id="scroll-4" class="wrapper wrapper-4">
-            <div class="wrapper__inner">
+            <div class="wrapper__inner wrapper__inner-4">
                 <div class="row">
                     <div class="col-6 col-sm-6 col-md-3 col-lg-3 wrapper-4__section wrapper-4__section-1"><span class="wrapper-4__section-big-text">2023</span><span class="wrapper-4__section-medium-text">年</span><br><span class="wrapper-4__section-small-text">事務所設立</span></div>
                     <div class="col-6 col-sm-6 col-md-3 col-lg-3 wrapper-4__section wrapper-4__section-2"><span class="wrapper-4__section-big-text">206</span><span class="wrapper-4__section-medium-text">件の</span><br><span class="wrapper-4__section-small-text">プロジェクト</span></div>
@@ -139,25 +171,25 @@
             <div class="wrapper__inner">
                 <h2 class="wrapper__h2">実績紹介</h2>
                 <div class="row">
-                    <div class="col-6 wrapper-5__section wrapper-5__section-1">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 wrapper-5__section wrapper-5__section-1">
                         <div class="wrapper-5__performance">
                             <img class="wrapper-5__img" src="./images/wrapper-5__section-1.webp" alt="">
                             <a class="wrapper-5__a" href="#">プロジェクト1</a>
                         </div>
                     </div>
-                    <div class="col-6 wrapper-5__section wrapper-5__section-2">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 wrapper-5__section wrapper-5__section-2">
                         <div class="wrapper-5__performance">
                             <img class="wrapper-5__img" src="./images/wrapper-5__section-2.webp" alt="">
                             <a class="wrapper-5__a" href="#">プロジェクト2</a>
                         </div>
                     </div>
-                    <div class="col-6 wrapper-5__section wrapper-5__section-3">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 wrapper-5__section wrapper-5__section-3">
                         <div class="wrapper-5__performance">
                             <img class="wrapper-5__img" src="./images/wrapper-5__section-3.webp" alt="">
                             <a class="wrapper-5__a" href="#">プロジェクト3</a>
                         </div>
                     </div>
-                    <div class="col-6 wrapper-5__section wrapper-5__section-4">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 wrapper-5__section wrapper-5__section-4">
                         <div class="wrapper-5__performance">
                             <img class="wrapper-5__img" src="./images/wrapper-5__section-4.webp" alt="">
                             <a class="wrapper-5__a" href="#">プロジェクト4</a>
@@ -234,7 +266,7 @@
                 <h2 class="wrapper__h2">お問い合わせ</h2>
                 <div class="wrapper-7__section-1" id="map"></div>
                 <div class="row">
-                    <div class="col-6 wrapper-7__section-2 wrapper-7__contact">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 wrapper-7__section-2 wrapper-7__contact">
                             <h3 class="wrapper__h3">お問い合わせ</h3>
                             <p>お問い合わせにはこちらのフォームをご利用ください</p>
                             <form action="post">
@@ -249,19 +281,25 @@
                                 <input class="wrapper-7__contact_button" type="button" value="送信する">
                             </form>
                     </div>
-                    <div class="col-6 wrapper-7__section-3">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 wrapper-7__section-3">
                         <div class="wrapper-7__aboutUs">
-                            <h6 class="wrapper__h3">もくらん建設　株式会社</h6>
+                            <h3 class="wrapper__h3">もくらん建設 株式会社</h6>
                             <p>〒000-0000</p>
                             <p>東京都新宿区西新宿　0-0-0</p>
-                            <br>
+                            <!-- <br> -->
                             <p>g.asai.bml@gmail.com</p>
                             <p>TEL: 00-0000-0000</p>
                             <p>FAX: 00-0000-0000</p>
                         </div>
+
                         <div class="wrapper-7__recruitment">
                             <h3 class="wrapper__h3">採用情報</h3>
                             2023年度のエントリーはこちらのアドレスまで履歴書をメールでお送りください：g.asai.bml@gmail.com
+                        </div>
+
+                        <div class="wrapper-7__estimate">
+                            <h3 class="wrapper__h3 estimate__h3">無料お見積り</h3>
+                            <div class="estimate-number">0120-000-000</div>
                         </div>
                     </div>
                 </div>
@@ -273,17 +311,17 @@
     <!-- フッター -->
     <footer>
         <div class="row">
-            <div class="footer__name col-4 col-sm-4 col-lg-4">
+            <div class="footer__name col-12 col-sm-4 col-md-4 col-lg-4">
                 <a href="#scroll-1">もくらん建設株式会社</a>
             </div>
-            <div class="col-8 col-sm-8 col-lg-8 m-0 p-0">
+            <div class="col-12 col-sm-8 col-md-8 col-lg-8 m-0 p-0">
                 <div class="row">
-                    <a class="footer__menu-item footer__menu-item1 col-2 col-sm-2 col-md-2 col-lg-2 px-0 dummy"></span>
-                    <a class="footer__menu-item footer__menu-item1 col-2 col-sm-2 col-md-2 col-lg-2 px-0" href="#scroll-1">ホーム</a>
-                    <a class="footer__menu-item footer__menu-item2 col-2 col-sm-2 col-md-2 col-lg-2 px-0" href="#scroll-2">サービス</a>
-                    <a class="footer__menu-item footer__menu-item3 col-2 col-sm-2 col-md-2 col-lg-2 px-0" href="#scroll-3">会社情報</a>
-                    <a class="footer__menu-item footer__menu-item4 col-2 col-sm-2 col-md-2 col-lg-2 px-0" href="#scroll-5">実績紹介</a>
-                    <a class="footer__menu-item footer__menu-item5 col-2 col-sm-2 col-md-2 col-lg-2 px-0" href="#scroll-7">お問い合わせ</a>
+                    <a class="footer__menu-item footer__menu-item-0 col-2 col-sm-2 col-md-2 col-lg-2 px-0 dummy"></span>
+                    <a class="footer__menu-item footer__menu-item-1 col-2 col-sm-2 col-md-2 col-lg-2 px-0" href="#scroll-1">ホーム</a>
+                    <a class="footer__menu-item footer__menu-item-2 col-2 col-sm-2 col-md-2 col-lg-2 px-0" href="#scroll-2">サービス</a>
+                    <a class="footer__menu-item footer__menu-item-3 col-2 col-sm-2 col-md-2 col-lg-2 px-0" href="#scroll-3">会社情報</a>
+                    <a class="footer__menu-item footer__menu-item-4 col-2 col-sm-2 col-md-2 col-lg-2 px-0" href="#scroll-5">実績紹介</a>
+                    <a class="footer__menu-item footer__menu-item-5 col-2 col-sm-2 col-md-2 col-lg-2 px-0" href="#scroll-7">お問い合わせ</a>
                 </div>
             </div>
         </div>

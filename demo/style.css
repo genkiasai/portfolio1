@@ -90,6 +90,10 @@ header {
     color: orange;
     text-decoration: none;
 }
+
+.navbar {
+    display: none;
+}
 /* ヘッダーここまで */
 
 /* アイキャッチ */
@@ -355,7 +359,8 @@ header {
 
 .wrapper-7__contact,
 .wrapper-7__aboutUs,
-.wrapper-7__recruitment {
+.wrapper-7__recruitment,
+.wrapper-7__estimate {
     text-align: left;
     padding: 20px;
 }
@@ -371,6 +376,16 @@ header {
 .wrapper-7__contact_textarea,
 .wrapper-7__contact_input-text {
     width: 100%;
+}
+
+.estimate__h3 {
+    border-bottom: 5px solid orange;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.estimate-number {
+    font-size: 2.0em;
 }
 /* セクション7ここまで */
 /* フッターここから */
@@ -404,7 +419,7 @@ footer {
 }
 /* フッターここまで */
 /* タブレット */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
     .nav__logo-item img {
         margin: 5px;
         max-width: 60px;
@@ -430,7 +445,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .wrapper__catchcopy-text {
         font-size: 3.2em;
     }
@@ -468,10 +483,125 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+    .nav__logo-area {
+        display: none;
+    }
+
+    .nav__menu-area {
+        display: none;
+    }
+
+    .nav__logo-item img {
+        margin: 0;
+        padding: 10px 20px 10px 0;
+    }
+
+    .navbar {
+        display: flex;
+        width: 100%;
+        background-color: orange !important;
+    }
+
+    .navbar-brand {
+        padding: 0;
+    }
+
+    .wrapper__h2 {
+        text-align: center;
+        display: inline-block;
+        border-bottom: 8px solid orange;
+        margin-bottom: 40px;
+        font-size: 2.4em;
+        font-weight: bold;
+    }
+
+    .wrapper__catchcopy-text {
+        font-size: 2.0em;
+    }
+
+    .wrapper__catchcopy-img {
+        max-width: 40px;
+    }
+
     .wrapper__inner {
         width: 90%;
         margin: 0 auto;
         padding: 40px 0;
         text-align: center;
+    }
+
+    .wrapper-1__video-area {
+        width: 100px;
+        min-height: 800px;
+        overflow: hidden;
+    }
+
+    .wrapper-3__section-2 {
+        height: 300px;
+    }
+
+    .wrapper-3__p {
+        padding-bottom: 24px;
+        text-align: left;
+    }
+
+    .wrapper-4__section-big-text {
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .wrapper-4__section-medium-text {
+        font-size: 1.5em;
+    }
+
+    .wrapper-4__section-small-text {
+        font-size: 1.0em;
+        margin: 0;
+    }
+
+    .wrapper__inner-4 {
+        padding: 0;
+    }
+
+    .wrapper-5__section-1,
+    .wrapper-5__section-2,
+    .wrapper-5__section-3 {
+        margin-bottom: 30px;
+    }
+
+    .grayImage,
+    .colorImage {
+        width: 100%;
+    }
+
+    .wrapper__h6 {
+        font-size: 1.5em;
+    }
+
+    .wrapper-7__section-2 {
+        margin: 16px 0;
+    }
+
+    .wrapper-7__contact_button {
+        margin: 8px 0;
+        padding: 8px 16px;
+        background-color: darkblue;
+        font-weight: bold;
+        color: orange;
+        border-radius: 8px;
+    }
+
+    .wrapper-7__aboutUs,
+    .wrapper-7__recruitment,
+    .wrapper-7__estimate {
+        padding: 20px 0;
+    }
+
+    .footer__menu-item-0 {
+        display: none;
+    }
+
+    .footer__menu-item {
+        font-size: .64em;
     }
 }
